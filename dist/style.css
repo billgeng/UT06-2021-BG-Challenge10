@@ -1,0 +1,22 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: azure;
+}
+
+.jumbotron {
+  background-color: rgb(255, 0, 0);
+}
+
+.card-header {
+  background-color: dodgerblue;
+  color: floralwhite;
+}
+
+.employee-card {
+  margin: 6px;
+}

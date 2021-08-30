@@ -1,0 +1,36 @@
+{
+  "name": "ut06-2021-bg-challenge10",
+  "version": "1.0.0",
+  "description": "Team member generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billgeng/UT06-2021-BG-Challenge10.git"
+  },
+  "keywords": [
+    "team",
+    "member",
+    "generator"
+  ],
+  "author": "Bill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billgeng/UT06-2021-BG-Challenge10/issues"
+  },
+  "homepage": "https://github.com/billgeng/UT06-2021-BG-Challenge10#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquire": "^0.4.8",
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0",
+    "path": "^0.12.7",
+    "regex": "^0.1.1",
+    "regexp": "^1.0.0"
+  }
+}
