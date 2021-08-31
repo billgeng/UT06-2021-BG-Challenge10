@@ -1,4 +1,4 @@
-const Intern = require('./lib/Intern.js');
+const Intern = require('../lib/Intern.js');
 
 
 
@@ -17,6 +17,6 @@ test('Can get school by getSchool()',()=>{
 
 test('getRole() should return correct role ', () =>{
     const testRole = 'Intern';
-    const em = new Employee('peter',23,'test@gmail.com','UOT');
+    const em = new Intern('peter',23,'test@gmail.com','UOT');
     expect(em.getRole()).toBe(testRole);
 });

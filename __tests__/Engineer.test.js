@@ -1,4 +1,4 @@
-const Engineer = require('./lib/Engineer.js');
+const Engineer = require('../lib/Engineer.js');
 
 
 test('Can set GitHub by arguments',()=>{
@@ -15,6 +15,6 @@ test('Can get GitHub by getGithub() ',() =>{
 
 test('getRole() should return correct role ', () =>{
     const testRole = 'Engineer';
-    const em = new Employee('peter',23,'test@gmail.com','githubuser');
+    const em = new Engineer('peter',23,'test@gmail.com','githubuser');
     expect(em.getRole()).toBe(testRole);
 });

@@ -86,24 +86,27 @@ const engineerQuestions = [
     type: 'input',
     name:'name',
     message: 'What is Engineer name?',
+    validate: confirmName
     
 },
 {
     type: 'input',
     name:'id',
     message: 'What is Engineer employee ID?',
+    validate: confirmNumber
    
 },
 {
     type: 'input',
     name: 'email',
     message: 'What is Engineer email?',
+    validate: validateEmail
     
 },
 {
     type: 'input',
     name: 'github',
-    message: 'What is Engineer GitHub username?',
+    message: 'What is Engineer GitHub username?'
    
 }
 ];
@@ -114,18 +117,21 @@ const internQuestions = [
     type: 'input',
     name:'name',
     message: 'What is Intern name?',
+    validate: confirmName
    
 },
 {
     type: 'input',
     name:'id',
     message: 'What is Intern employee ID?',
+    validate: confirmNumber
     
 },
 {
     type: 'input',
     name: 'email',
     message: 'What is Intern email?',
+    validate: validateEmail
     
 },
 {
@@ -181,7 +187,7 @@ function  addNewTeam() {
 addNewTeam();
 
 function creatNewTeam () {
-    console.log(newTeammembers)
+    
     fs.writeFileSync(outputPath, render(newTeammembers),'utf8')
 }
 
