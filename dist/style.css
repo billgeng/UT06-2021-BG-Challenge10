@@ -1,4 +1,4 @@
-body {
+5body {
   background-color: aliceblue;
 }
 
@@ -10,6 +10,7 @@ h1 {
 
 .jumbotron {
   background-color: rgb(255, 0, 0);
+  margin: 10px;
 }
 
 .card-header {
@@ -18,5 +19,11 @@ h1 {
 }
 
 .employee-card {
-  margin: 6px;
+  margin: 15px;
+  width: 80%;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
 }

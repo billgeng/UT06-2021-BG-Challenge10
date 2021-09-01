@@ -137,7 +137,7 @@ const internQuestions = [
 {
     type: 'input',
     name: 'school',
-    message: 'What is the school of Intern from ?',
+    message: 'What is the school of Intern from ?'
    
 }];
 
@@ -182,13 +182,11 @@ function  addNewTeam() {
         console.log(err);
     }
   }
-}
+};
 
 addNewTeam();
 
 function creatNewTeam () {
     
-    fs.writeFileSync(outputPath, render(newTeammembers),'utf8')
-}
-
-
+    fs.writeFileSync(outputPath, render(newTeammembers),'utf8');
+};

@@ -8,13 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="shortcut icon" href="path/to/favicon.ico">
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/1521bcb097.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container-fluid">
-          <div class="row">
+          <div class="row ">
             <div class="col-12 jumbotron mb-3 team-heading">
                <h1 class="text-center"> My Team </h1>
             </div>
@@ -23,8 +23,70 @@
     
         <div class="container">
           <div class="row">
-            <div class="team-area col-12 d-flex justify-content-center">
-                {{team}}
+            <div class="team-area col-12 d-flex justify-content-center row-cols-4 flex-wrap">
+
+              <div class="card employee-card shadow col" id="manager" >
+    <div class="card-header text-white bg-primary mb-3">
+     <h2 class ="card-title"> Peter </h2>
+     <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i> Manager </h3>
+     </div>
+       <div class="card-body">
+         <ul class = "list-group">
+           <li class="list-group-item"> ID: 102 </li>
+           <li class="list-group-item">Email: <a href="mailto: peter@e.com "  class="card-link""> peter@e.com </a></li>
+           <li class="list-group-item">Office Number: 301 </li>
+         </ul>
+        </div>
+        </div><div id="Engineer" class="card employee-card col">
+    <div class="card-header text-white bg-primary mb-3">
+        <h2 class ="card-title"> Wang </h2>
+        <h3 class ="card-title"><i class="fas fa-glasses mr-2"></i> Engineer </h3>
+    </div>
+    <div class="card-body">
+    <ul class="list-group">
+        <li class="list-group-item">ID: 110 </li>
+        <li class="list-group-item">Email: <a href="mailto:wang@e.com" class="card-link">wang@e.com</a></li>
+        <li class="list-group-item">GitHub: <a href="https://github.com/wang" class="card-link">wang</a> </li>
+    </ul>
+    </div>
+</div><div id="Engineer" class="card employee-card col">
+    <div class="card-header text-white bg-primary mb-3">
+        <h2 class ="card-title"> Mike </h2>
+        <h3 class ="card-title"><i class="fas fa-glasses mr-2"></i> Engineer </h3>
+    </div>
+    <div class="card-body">
+    <ul class="list-group">
+        <li class="list-group-item">ID: 113 </li>
+        <li class="list-group-item">Email: <a href="mailto:mike@e.com" class="card-link">mike@e.com</a></li>
+        <li class="list-group-item">GitHub: <a href="https://github.com/mike" class="card-link">mike</a> </li>
+    </ul>
+    </div>
+</div><div id="Intern" class="card employee-card col">
+    <div class="card-header text-white bg-primary mb-3">
+        <h2 class ="card-title"> Ivy</h2>
+        <h3 class ="card-title"><i class="fas fa-user-graduate mr-2"></i> Intern </h3>
+    </div>
+    <div class="card-body">
+    <ul class="list-group">
+        <li class="list-group-item">ID: 201 </li>
+        <li class="list-group-item">Email: <a href="mailto:ivy@e.com" class="card-link">ivy@e.com</a></li>
+        <li class="list-group-item">School: UNN</li>
+    </ul>
+    </div>
+  </div><div id="Intern" class="card employee-card col">
+    <div class="card-header text-white bg-primary mb-3">
+        <h2 class ="card-title"> Alice</h2>
+        <h3 class ="card-title"><i class="fas fa-user-graduate mr-2"></i> Intern </h3>
+    </div>
+    <div class="card-body">
+    <ul class="list-group">
+        <li class="list-group-item">ID: 204 </li>
+        <li class="list-group-item">Email: <a href="mailto:alice@e.com" class="card-link">alice@e.com</a></li>
+        <li class="list-group-item">School: UBC</li>
+    </ul>
+    </div>
+  </div>
+                
             </div>
           </div>
         </div> 
