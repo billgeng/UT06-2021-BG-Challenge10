@@ -1,3 +1,4 @@
+
 # UT06-2021-BG-Challenge10
 
 10. Object-Oriented Programming Challenge: Team Profile Generator
@@ -28,3 +29,4 @@ THEN I exit the application, and the HTML is generated
 
 walkthrough video link : https://youtu.be/CwYlWRKn1so
 
+<img width="815" alt="Screenshot for Team profile generator from BG" src="https://user-images.githubusercontent.com/85249402/131594286-f220a876-fb08-4b95-aed4-57407c0ddcd5.png">
